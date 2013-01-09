@@ -60,11 +60,11 @@ class Project < ActiveRecord::Base
       # Fill in rest once we know the values.
       myhash = {
         # Stage: Assess
-        "0,0"=>3, "0,1"=>2, "0,2"=>2, "0,3"=>1, #"0,4"=>? once we know what it is
+        "0,0"=>3, "0,2"=>2, "0,3"=>2, "0,4"=>1, #"0,4"=>? once we know what it is
         # Stage: Define
-        "1,0"=>2, "1,1"=>3, "1,2"=>2, "1,3"=>1, #"1,4"=>? once we know what it is
+        "1,0"=>2, "1,2"=>3, "1,3"=>2, "1,4"=>1, #"1,4"=>? once we know what it is
         # Stage: Design
-        "2,0"=>2, "2,1"=>2, "2,2"=>2, "2,3"=>2
+        "2,0"=>2, "2,2"=>2, "2,3"=>2, "2,4"=>2
       }
       stage_count = 0 # to iterate over stages
       factor_count = 0 # ''' factors

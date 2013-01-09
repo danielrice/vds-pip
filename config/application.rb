@@ -21,18 +21,19 @@ module VdsPip
       "Assess",
       "Define",
       "Design",
-      "Implement",
+      "Apply",
       "Monitor"
     ]
 
     # Order should match the flow chart
     FACTORS = [
       "Site and climate",
-      "Internal configurations",
-      "External enclosure including roof",
-      "Environmental systems",
-      "Energy and water",
       "Form and massing",
+      "Internal configurations",
+      "External enclosure",
+      "Environmental systems",
+      "Energy systems",
+      "Water systems",
       "Material use"
     ]
 
@@ -51,7 +52,7 @@ module VdsPip
       "Assess Enclosure Opportunities",
       "Assess Enclosure Opportunities' Feasibility",
 
-      "Assess Environmental System Needs & Resources",
+      "Assess Env System Needs & Resources",
 
       # Stage: Define
       "Define Site Development Strategies",
@@ -59,21 +60,21 @@ module VdsPip
 
       "Define Circulation Strategies",
       "Define Program Chart",
-      "Define Interior Design Scheme Goals & Strategies",
+      "Define Interior Design Goals & Strategies",
 
       "Define Enclosure Strategies",
       "Define Performance Goals",
 
-      "Define Environmental Systems Goals & Strategies",
+      "Define Env Systems Goals & Strategies",
 
       # Stage: Design
       "Design Landscape",
       "Analyze Impact on Performance",
 
       "Design Internal Configurations",
-      "Outline Material/Finishing, Furniture/Equipment & Lighting Specifications",
+      "Outline Material, Equipment & Lighting Specs",
 
-      "Develop Enclosure Drawings & Specifications",
+      "Develop Enclosure Drawings & Specs",
       "Analyze Impact on Performance",
 
       "Design Environmental Systems",
